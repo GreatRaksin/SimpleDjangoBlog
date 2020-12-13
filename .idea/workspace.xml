@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eec27df3-cb9d-4177-a250-c5819cbd3b0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/mysite/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mysite/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/mysite/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mysite/post_list.html" afterDir="false" />
     </list>
@@ -77,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607866747043</updated>
       <workItem from="1607866776844" duration="903000" />
-      <workItem from="1607867744925" duration="2630000" />
+      <workItem from="1607867744925" duration="5366000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1607867291038</created>
@@ -121,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607870089393</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Linking bootstrap">
+      <created>1607870523571</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607870523571</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,36 +144,37 @@
     <MESSAGE value="Adding Post model" />
     <MESSAGE value="Routing..." />
     <MESSAGE value="Adding templates, views and urls for mysite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding templates, views and urls for mysite" />
+    <MESSAGE value="Linking bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linking bootstrap" />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607868751662">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
     <state x="492" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.994@0.25.1920.994" timestamp="1607868751662" />
-    <state x="896" y="113" key="CommitChangelistDialog2" timestamp="1607870089211">
+    <state x="896" y="113" key="CommitChangelistDialog2" timestamp="1607870523427">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
-    <state x="896" y="113" key="CommitChangelistDialog2/0.25.1920.994@0.25.1920.994" timestamp="1607870089211" />
+    <state x="896" y="113" key="CommitChangelistDialog2/0.25.1920.994@0.25.1920.994" timestamp="1607870523427" />
     <state x="888" y="306" key="EnvironmentVariablesDialog" timestamp="1607868749284">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
     <state x="888" y="306" key="EnvironmentVariablesDialog/0.25.1920.994@0.25.1920.994" timestamp="1607868749284" />
-    <state width="1878" height="267" key="GridCell.Tab.0.bottom" timestamp="1607870093575">
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom" timestamp="1607873140403">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
-    <state width="1878" height="267" key="GridCell.Tab.0.bottom/0.25.1920.994@0.25.1920.994" timestamp="1607870093575" />
-    <state width="1878" height="267" key="GridCell.Tab.0.center" timestamp="1607870093574">
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom/0.25.1920.994@0.25.1920.994" timestamp="1607873140403" />
+    <state width="1878" height="267" key="GridCell.Tab.0.center" timestamp="1607873140402">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
-    <state width="1878" height="267" key="GridCell.Tab.0.center/0.25.1920.994@0.25.1920.994" timestamp="1607870093574" />
-    <state width="1878" height="267" key="GridCell.Tab.0.left" timestamp="1607870093573">
+    <state width="1878" height="267" key="GridCell.Tab.0.center/0.25.1920.994@0.25.1920.994" timestamp="1607873140402" />
+    <state width="1878" height="267" key="GridCell.Tab.0.left" timestamp="1607873140402">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
-    <state width="1878" height="267" key="GridCell.Tab.0.left/0.25.1920.994@0.25.1920.994" timestamp="1607870093573" />
-    <state width="1878" height="267" key="GridCell.Tab.0.right" timestamp="1607870093574">
+    <state width="1878" height="267" key="GridCell.Tab.0.left/0.25.1920.994@0.25.1920.994" timestamp="1607873140402" />
+    <state width="1878" height="267" key="GridCell.Tab.0.right" timestamp="1607873140402">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
-    <state width="1878" height="267" key="GridCell.Tab.0.right/0.25.1920.994@0.25.1920.994" timestamp="1607870093574" />
+    <state width="1878" height="267" key="GridCell.Tab.0.right/0.25.1920.994@0.25.1920.994" timestamp="1607873140402" />
   </component>
 </project>
