@@ -4,6 +4,9 @@
     <list default="true" id="eec27df3-cb9d-4177-a250-c5819cbd3b0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607866747043</updated>
       <workItem from="1607866776844" duration="903000" />
-      <workItem from="1607867744925" duration="723000" />
+      <workItem from="1607867744925" duration="1864000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1607867291038</created>
@@ -84,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607868129980</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding Post model">
+      <created>1607868654616</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607868654616</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,33 +106,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="Adding Post model" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="492" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607868469082">
+    <state x="492" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607868751662">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
-    <state x="492" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.994@0.25.1920.994" timestamp="1607868469082" />
-    <state x="553" y="81" key="CommitChangelistDialog2" timestamp="1607868129689">
+    <state x="492" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.994@0.25.1920.994" timestamp="1607868751662" />
+    <state x="553" y="81" key="CommitChangelistDialog2" timestamp="1607868654417">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
-    <state x="553" y="81" key="CommitChangelistDialog2/0.25.1920.994@0.25.1920.994" timestamp="1607868129689" />
-    <state x="888" y="306" key="EnvironmentVariablesDialog" timestamp="1607868465672">
+    <state x="553" y="81" key="CommitChangelistDialog2/0.25.1920.994@0.25.1920.994" timestamp="1607868654417" />
+    <state x="888" y="306" key="EnvironmentVariablesDialog" timestamp="1607868749284">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
-    <state x="888" y="306" key="EnvironmentVariablesDialog/0.25.1920.994@0.25.1920.994" timestamp="1607868465672" />
-    <state width="1878" height="267" key="GridCell.Tab.0.bottom" timestamp="1607868442713">
+    <state x="888" y="306" key="EnvironmentVariablesDialog/0.25.1920.994@0.25.1920.994" timestamp="1607868749284" />
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom" timestamp="1607868475747">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
-    <state width="1878" height="267" key="GridCell.Tab.0.bottom/0.25.1920.994@0.25.1920.994" timestamp="1607868442713" />
-    <state width="1878" height="267" key="GridCell.Tab.0.center" timestamp="1607868442712">
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom/0.25.1920.994@0.25.1920.994" timestamp="1607868475747" />
+    <state width="1878" height="267" key="GridCell.Tab.0.center" timestamp="1607868475746">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
-    <state width="1878" height="267" key="GridCell.Tab.0.center/0.25.1920.994@0.25.1920.994" timestamp="1607868442712" />
-    <state width="1878" height="267" key="GridCell.Tab.0.left" timestamp="1607868442711">
+    <state width="1878" height="267" key="GridCell.Tab.0.center/0.25.1920.994@0.25.1920.994" timestamp="1607868475746" />
+    <state width="1878" height="267" key="GridCell.Tab.0.left" timestamp="1607868475746">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
-    <state width="1878" height="267" key="GridCell.Tab.0.left/0.25.1920.994@0.25.1920.994" timestamp="1607868442711" />
-    <state width="1878" height="267" key="GridCell.Tab.0.right" timestamp="1607868442712">
+    <state width="1878" height="267" key="GridCell.Tab.0.left/0.25.1920.994@0.25.1920.994" timestamp="1607868475746" />
+    <state width="1878" height="267" key="GridCell.Tab.0.right" timestamp="1607868475746">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
-    <state width="1878" height="267" key="GridCell.Tab.0.right/0.25.1920.994@0.25.1920.994" timestamp="1607868442712" />
+    <state width="1878" height="267" key="GridCell.Tab.0.right/0.25.1920.994@0.25.1920.994" timestamp="1607868475746" />
   </component>
 </project>
