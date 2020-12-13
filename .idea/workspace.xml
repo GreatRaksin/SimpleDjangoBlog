@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eec27df3-cb9d-4177-a250-c5819cbd3b0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mysite/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +13,14 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,6 +36,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -71,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607866747043</updated>
       <workItem from="1607866776844" duration="903000" />
-      <workItem from="1607867744925" duration="1864000" />
+      <workItem from="1607867744925" duration="2285000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1607867291038</created>
@@ -94,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607868654616</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Routing...">
+      <created>1607869622526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607869622526</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,17 +117,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Adding Post model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Post model" />
+    <MESSAGE value="Routing..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Routing..." />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607868751662">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
     <state x="492" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.994@0.25.1920.994" timestamp="1607868751662" />
-    <state x="553" y="81" key="CommitChangelistDialog2" timestamp="1607868654417">
+    <state x="553" y="81" key="CommitChangelistDialog2" timestamp="1607869622327">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
-    <state x="553" y="81" key="CommitChangelistDialog2/0.25.1920.994@0.25.1920.994" timestamp="1607868654417" />
+    <state x="553" y="81" key="CommitChangelistDialog2/0.25.1920.994@0.25.1920.994" timestamp="1607869622327" />
     <state x="888" y="306" key="EnvironmentVariablesDialog" timestamp="1607868749284">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
