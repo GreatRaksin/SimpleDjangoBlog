@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eec27df3-cb9d-4177-a250-c5819cbd3b0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +39,10 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="SECRET_KEY" value="o6f+)yj-09y&amp;kcox+h)@-dn26e-fc$_ef4mtx1c2(puma_cn9h" />
+        <env name="DJANGO_SETTINGS_MODULE" value="blog.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -71,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607866747043</updated>
       <workItem from="1607866776844" duration="903000" />
-      <workItem from="1607867744925" duration="308000" />
+      <workItem from="1607867744925" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1607867291038</created>
@@ -80,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607867291038</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding Post model">
+      <created>1607868129980</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607868129980</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,12 +92,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Adding Post model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Post model" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="553" y="81" key="CommitChangelistDialog2" timestamp="1607867290840">
+    <state x="492" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607868469082">
       <screen x="0" y="25" width="1920" height="994" />
     </state>
-    <state x="553" y="81" key="CommitChangelistDialog2/0.25.1920.994@0.25.1920.994" timestamp="1607867290840" />
+    <state x="492" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.994@0.25.1920.994" timestamp="1607868469082" />
+    <state x="553" y="81" key="CommitChangelistDialog2" timestamp="1607868129689">
+      <screen x="0" y="25" width="1920" height="994" />
+    </state>
+    <state x="553" y="81" key="CommitChangelistDialog2/0.25.1920.994@0.25.1920.994" timestamp="1607868129689" />
+    <state x="888" y="306" key="EnvironmentVariablesDialog" timestamp="1607868465672">
+      <screen x="0" y="25" width="1920" height="994" />
+    </state>
+    <state x="888" y="306" key="EnvironmentVariablesDialog/0.25.1920.994@0.25.1920.994" timestamp="1607868465672" />
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom" timestamp="1607868442713">
+      <screen x="0" y="25" width="1920" height="994" />
+    </state>
+    <state width="1878" height="267" key="GridCell.Tab.0.bottom/0.25.1920.994@0.25.1920.994" timestamp="1607868442713" />
+    <state width="1878" height="267" key="GridCell.Tab.0.center" timestamp="1607868442712">
+      <screen x="0" y="25" width="1920" height="994" />
+    </state>
+    <state width="1878" height="267" key="GridCell.Tab.0.center/0.25.1920.994@0.25.1920.994" timestamp="1607868442712" />
+    <state width="1878" height="267" key="GridCell.Tab.0.left" timestamp="1607868442711">
+      <screen x="0" y="25" width="1920" height="994" />
+    </state>
+    <state width="1878" height="267" key="GridCell.Tab.0.left/0.25.1920.994@0.25.1920.994" timestamp="1607868442711" />
+    <state width="1878" height="267" key="GridCell.Tab.0.right" timestamp="1607868442712">
+      <screen x="0" y="25" width="1920" height="994" />
+    </state>
+    <state width="1878" height="267" key="GridCell.Tab.0.right/0.25.1920.994@0.25.1920.994" timestamp="1607868442712" />
   </component>
 </project>
