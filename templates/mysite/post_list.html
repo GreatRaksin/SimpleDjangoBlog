@@ -8,12 +8,14 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title">{{ post.title }}</h5>
-                <p class="card-text">{{ post.text }}</p>
+                <p class="card-text">{{ post.shortText }}</p>
                 <a href="{% url 'post_detail' pk=post.pk %}" class="btn btn-primary">Read</a>
             </div>
             <div class="card-footer text-muted">
                 {{ post.published_date }}
             </div>
         </div>
+
+        <div class="clearfix"></div>
     {% endfor %}
 {% endblock %}
