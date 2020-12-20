@@ -4,7 +4,7 @@
     {% for post in posts %}
         <div class="card">
             <div class="card-header">
-                Featured
+                {{ post.author|capfirst }}
             </div>
             <div class="card-body">
                 <h5 class="card-title">{{ post.title }}</h5>
